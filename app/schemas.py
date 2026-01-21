@@ -16,4 +16,5 @@ class ChurnRequest(BaseModel):
 class ChurnResponse(BaseModel):
     churn_probability: float
     will_churn: bool
-    model_version: str = "v1"
+    version: str = "v1"
+

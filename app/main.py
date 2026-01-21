@@ -35,5 +35,5 @@ def predict(req: ChurnRequest):
     return ChurnResponse(
         churn_probability=proba,
         will_churn=proba >= 0.5,
-        model_version="v1",
+        version="v1",
     )
