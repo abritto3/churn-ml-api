@@ -6,6 +6,15 @@ from app.predict import ChurnModel, ModelNotReady
 
 app = FastAPI(title="Churn ML API", version="1.0.0")
 
+@app.get("/")
+def root():
+    return {
+        "name": "Churn ML API",
+        "status": "ok",
+        "docs": "/docs",
+        "health": "/health"
+    }
+
 model = ChurnModel()
 
 
