@@ -1,5 +1,7 @@
 # Churn Prediction ML API (FastAPI + Docker)
 
+This repository contains a production-style machine learning service that predicts customer churn and exposes predictions via a REST API. The project demonstrates the full ML lifecycle, including feature validation, model training, artifact persistence, API-based inference, containerisation, automated testing, and cloud deployment.
+
 This is an end-to-end machine learning project that:
 - trains a churn prediction model
 - packages it into a REST API using FastAPI
