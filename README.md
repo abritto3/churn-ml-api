@@ -21,6 +21,9 @@ Customer churn is a common business problem where companies want to identify use
 **Goal:**  
 Predict the probability that a customer will churn based on account and billing features.
 
+## Architecture
+![Architecture Diagram](docs/architecture.png)
+
 **Inputs include:**
 - tenure (months)
 - monthly charges
