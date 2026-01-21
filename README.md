@@ -15,6 +15,10 @@ This is an end-to-end machine learning project that:
 
 ---
 
+![CI](https://github.com/abritto3/churn-ml-api/actions/workflows/ci.yml/badge.svg)
+
+---
+
 ## 🧠 Problem Overview
 Customer churn is a common business problem where companies want to identify users likely to stop using a service.
 
