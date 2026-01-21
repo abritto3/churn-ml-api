@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# Model artifacts (optional – we usually don't commit trained models)
+models/*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
